@@ -3,7 +3,7 @@
 This solidity code is made for tokens and redeemable feature in online Degen gaming platform. Here players can play games and buy degen tokens, then exchange that for redeemable items in the shop.
 
 ## Description
-This contract is written in Solidity language, a programming language used for developing smart contracts on the Ethereum blockchain. In smart contract first we imported 3 libraries ```ERC20, Ownable, ERC@)Burnable```. In this contract player will submit request for tokens and wait in queue using ```buyDegen()``` and then the owner will mint tokens for all the players in the queue using ```mintToken()```.After receiveing tokens, player can use it to reedem cards from  enum ```Cards``` using ```redeemCards()```, or can send to other users, and if they don't need them anymore than can burn them using ```burnDegen()``` and anytime they can check their tokens through ```checkBalance()```.
+This contract is written in Solidity language, a programming language used for developing smart contracts on the Ethereum blockchain. In smart contract first we imported 3 libraries ```ERC20, Ownable, ERC@)Burnable```. In this contract player will submit request for tokens and wait in queue using ```buyDegen()``` and then the owner will mint tokens for all the players in the queue using ```mintToken()```.After receiveing tokens, player can use it to reedem items from  enum ```Items``` , or can send to other users, and if they don't need them anymore than can burn them using ```burnDegen()``` and anytime they can check their tokens through ```checkBalance()```.
 
 ### Getting Started
 #### Execution program
